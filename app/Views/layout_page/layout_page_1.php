@@ -278,6 +278,16 @@
 
 
                         <li class="menu-title" data-key="t-applications">Applications</li>
+                        <li>
+                            <a href="javascript: void(0);">
+                                <i class="bx bx-home-alt icon nav-icon"></i>
+                                <span class="menu-item" data-key="t-products">Products</span>
+                            </a>
+                            <ul class="sub-menu" aria-expanded="false">
+                                <li><a href="#" data-key="t-dashboards_products">Standar Products</a></li>
+                                <li><a href="#" data-key="t-create_standar_products">Create Standar Products</a></li>
+                            </ul>
+                        </li>
 
                         <li>
                             <a href="javascript: void(0);">
@@ -285,11 +295,11 @@
                                 <span class="menu-item" data-key="t-standar_dies">Standar Dies</span>
                             </a>
                             <ul class="sub-menu" aria-expanded="false">
-                                <li><a href="dmf_dashboards" data-key="t-dashboards">Dashboards</a></li>
-                                <li><a href="#" data-key="t-assy_set">Assy Set</a></li>
+                                <!-- <li><a href="dmf_dashboards" data-key="t-dashboards_dies">Dashboards Dies</a></li> -->
+                                <!-- <li><a href="#" data-key="t-assy_set">Assy Set</a></li> -->
                                 <li><a href="#" data-key="t-part_dies">Part</a></li>
-                                <li><a href="#" data-key="t-consumable">Consumable</a></li>
-                                <li><a href="#" data-key="t-create_standar">Create Standar</a></li>
+                                <!-- <li><a href="#" data-key="t-consumable">Consumable</a></li> -->
+                                <li><a href="#" data-key="t-create_standar">Create Standar Dies</a></li>
                             </ul>
                         </li>
 
