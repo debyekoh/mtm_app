@@ -1,8 +1,10 @@
 <?php
 
-namespace App\Controllers;
+namespace App\Controllers\DiesManufacturingController;
 
-class Home extends BaseController
+use App\Controllers\BaseController;
+
+class Dashboards extends BaseController
 {
     public function index(): string
     {
@@ -17,12 +19,10 @@ class Home extends BaseController
             ';
 
         $datapage = array(
-            'titlepage' => "Home",
+            'titlepage' => "Dashboard",
             'head_page' => $head_page,
             'js_page'   => $js_page,
         );
         return view('content_page/dashboard', $datapage);
-        // return view('layout_page/layout_page_1', $datapage);
-        // return view('layout_page/layout_page_1');
     }
 }
